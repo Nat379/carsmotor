@@ -159,6 +159,13 @@ body {
     position: absolute;
 }
 
+.main-title {
+    display: flex;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    justify-content: center;
+}
+
 .cards-container {
     height: 80%;
     width: 100%;
