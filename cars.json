@@ -1,0 +1,32 @@
+[
+    {
+      "card-img" : "./assets/car-1.jpg",
+      "card-title": "Toyota bZ4X top 2wd",
+      "card-price": "28 000$",
+      "distance": "Запас ходу: 500 км",
+      "battery": "Батарея: 66,7 КВт * год",
+      "year": "Рік випуску: 2022",
+      "category": "available"
+    },
+
+    {
+        "card-img" : "./assets/Zeekr.jpg",
+        "card-title": "Zeekr 001 2wd",
+        "card-price": "45 500$",
+        "distance": "Запас ходу: 700 км",
+        "battery": "Батарея: 100 КВт * год",
+        "year": "Рік випуску: 2023",
+        "category": "available"
+      },
+
+      {
+        "card-img" : "./assets/VW-ID4.jpg",
+        "card-title": "Volkswagen ID4 Pure+",
+        "card-price": "24 000$",
+        "distance": "Пробіг: 21 000км",
+        "battery": "Батарея: 84 КВт * год",
+        "year": "Рік випуску: 2021",
+        "category": "available"
+      }
+
+]
