@@ -96,6 +96,21 @@ body {
     width: 100%;
 }
 
+.active-tab {
+pointer-events: none;
+}
+
+.active-tab::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    display: block;
+    width: 0;
+    height: 2px;
+    background: var(--white);
+    width: 100%;
+}
+
 .burger-menu {
     display: none;
     flex-direction: column;
@@ -336,4 +351,20 @@ body {
      .map-container {
         width: 100%;
      }
+     }
+
+     @media (hover: none) {
+        .nav-link:hover:after {
+            width: 0;
+        }
+
+        .card:hover {
+            transform: scale(1);
+            /* transition: transform 0.5s ease; */
+        }
+
+        .icon:hover {
+            transform: scale(1);
+            /* transition: transform 0.5s ease; */
+        }
      }
