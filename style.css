@@ -43,7 +43,7 @@ body {
 } */
 
 .logo-icon {
-    width: 80px;
+    width: 90px;
 }
 
 .navigation {
@@ -222,10 +222,21 @@ pointer-events: none;
     cursor: pointer;
 }
 
-.card:hover {
+.swiper-wrapper {
+    height: 290px;
+  }
+ .swiper-button-next, 
+ .swiper-button-prev {
+    color: var(--dark-blue);
+    cursor: pointer;
+    top: 25%;
+    background-color: var(--white);
+    width: 0%;
+ }
+/* .card:hover {
     transform: scale(1.1);
     transition: transform 0.5s ease;
-}
+} */
 
 .car-img {
     width: 298px;

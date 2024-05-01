@@ -51,10 +51,21 @@ function loadCardsByCategory(category) {
       cars.forEach(car => {
         const card = document.createElement('div');
         card.classList.add('card');
+        card.classList.add('swiper');
         card.innerHTML = `
-          <div class="card-img">
+        <div class="swiper-wrapper">
+          <div class="card-img swiper-slide">
               <img class="car-img" src=${car["card-img"]}>
           </div>
+          <div class="card-img swiper-slide">
+              <img class="car-img" src=${car["card-img"]}>
+          </div>
+          <div class="card-img swiper-slide">
+              <img class="car-img" src=${car["card-img"]}>
+          </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+           <div class="swiper-button-next"></div>
           <h2 class="card-title">${car["card-title"]}</h2>
           <p class="card-price">${car["card-price"]}</p>
           <div class="card-description">
@@ -64,6 +75,23 @@ function loadCardsByCategory(category) {
           </div>
         `;
         cardsContainer.appendChild(card);
+      });
+      const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+      
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        
+  // Проміжок між слайдами
+  spaceBetween: 20, // Змініть на ваше значення
+  
+  // Висота слайдера
+  height: 300, // Змініть на ваше значення
       });
     })
     .catch(error => {
