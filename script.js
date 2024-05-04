@@ -55,13 +55,22 @@ function loadCardsByCategory(category) {
         card.innerHTML = `
         <div class="swiper-wrapper">
           <div class="card-img swiper-slide">
-              <img class="car-img" src=${car["card-img"]}>
+              <img class="car-img" src=${car["card-img-1"]}>
           </div>
           <div class="card-img swiper-slide">
-              <img class="car-img" src=${car["card-img"]}>
+              <img class="car-img" src=${car["card-img-2"]}>
           </div>
           <div class="card-img swiper-slide">
-              <img class="car-img" src=${car["card-img"]}>
+              <img class="car-img" src=${car["card-img-3"]}>
+          </div>
+          <div class="card-img swiper-slide">
+              <img class="car-img" src=${car["card-img-4"]}>
+          </div>
+          <div class="card-img swiper-slide">
+              <img class="car-img" src=${car["card-img-5"]}>
+          </div>
+          <div class="card-img swiper-slide">
+             <img class="car-img" src=${car["card-img-6"]}>
           </div>
           </div>
           <div class="swiper-button-prev"></div>

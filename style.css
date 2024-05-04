@@ -222,8 +222,10 @@ pointer-events: none;
     cursor: pointer;
 }
 
+
 .swiper-wrapper {
     height: 290px;
+   
   }
  .swiper-button-next, 
  .swiper-button-prev {
@@ -239,8 +241,16 @@ pointer-events: none;
 } */
 
 .car-img {
-    width: 298px;
+    max-height: 280px;
+    width: 290px;
+    object-fit: contain;
+    margin-left: 4px;
 }
+
+/* .card-img {
+    height: 298px;
+    object-fit: cover;
+} */
 
 .card-title {
     color: var(--dark-blue);
