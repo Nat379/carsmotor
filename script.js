@@ -96,11 +96,9 @@ function loadCardsByCategory(category) {
           prevEl: '.swiper-button-prev',
         },
         
-  // Проміжок між слайдами
-  spaceBetween: 20, // Змініть на ваше значення
+  spaceBetween: 20,
   
-  // Висота слайдера
-  height: 300, // Змініть на ваше значення
+  height: 300,
       });
     })
     .catch(error => {
