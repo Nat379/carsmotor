@@ -21,10 +21,6 @@ body {
 
 }
 
-/* .wrapper {
-    overflow: hidden;
-} */
-
 .header {
     padding: 0px 80px;
     display: flex;
@@ -37,10 +33,6 @@ body {
     background-color: var(--dark-blue);
     color: var(--white)
 }
-
-/* .logo {
-    width: 80px;
-} */
 
 .logo-icon {
     width: 90px;
@@ -197,7 +189,6 @@ pointer-events: none;
 }
 
 .cards-container {
-    /* height: 60%; */
     width: 100%;
     background-color: var(--dark-blue);
     display: flex;
@@ -216,7 +207,6 @@ pointer-events: none;
     box-shadow: 2px 2px 2px var(--sku-blue);
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: space-between;
     border-radius: 30px;
     cursor: pointer;
@@ -235,10 +225,6 @@ pointer-events: none;
     background-color: var(--white);
     width: 0%;
  }
-/* .card:hover {
-    transform: scale(1.1);
-    transition: transform 0.5s ease;
-} */
 
 .car-img {
     max-height: 280px;
@@ -246,11 +232,6 @@ pointer-events: none;
     object-fit: contain;
     margin-left: 4px;
 }
-
-/* .card-img {
-    height: 298px;
-    object-fit: cover;
-} */
 
 .card-title {
     color: var(--dark-blue);
@@ -342,10 +323,6 @@ pointer-events: none;
     display: flex;
   }
 
-/* .header {
-    position: fixed;
-} */
-
  .open-burger-menu {
     display: block;
     position: fixed;
@@ -381,11 +358,9 @@ pointer-events: none;
 
         .card:hover {
             transform: scale(1);
-            /* transition: transform 0.5s ease; */
         }
 
         .icon:hover {
             transform: scale(1);
-            /* transition: transform 0.5s ease; */
         }
      }

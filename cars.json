@@ -45,21 +45,6 @@
       },
 
       {
-        "card-img-1" : "./assets/cars-img/leaf-1.jpg",
-        "card-img-2" : "./assets/cars-img/leaf-2.jpg",
-        "card-img-3" : "./assets/cars-img/leaf-3.jpg",
-        "card-img-4" : "./assets/cars-img/leaf-4.jpg",
-        "card-img-5" : "./assets/cars-img/leaf-5.jpg",
-        "card-img-6" : "./assets/cars-img/leaf-6.jpg",
-        "card-title": "Nissan Leaf",
-        "card-price": "12 500$",
-        "distance": "Запас ходу: 250 км / пробіг 113 000 км",
-        "battery": "Батарея: 40 КВт",
-        "year": "Рік випуску: 2018",
-        "category": "available"
-      },
-  
-      {
           "card-img-1" : "./assets/cars-img/egolf-1.jpg",
           "card-img-2" : "./assets/cars-img/egolf-2.jpg",
           "card-img-3" : "./assets/cars-img/egolf-3.jpg",
@@ -478,6 +463,20 @@
           "distance": "Запас ходу: 530 / вживана",
           "battery": "Батарея: 78 КВт",
           "year": "Рік випуску: 2022",
+          "category": "order"
+        },
+        {
+          "card-img-1" : "./assets/cars-img/zeekr-1.jpg",
+          "card-img-2" : "./assets/cars-img/zeekr-2.jpg",
+          "card-img-3" : "./assets/cars-img/zeekr-3.jpg",
+          "card-img-4" : "./assets/cars-img/zeekr-4.jpg",
+          "card-img-5" : "./assets/cars-img/zeekr-5.jpg",
+          "card-img-6" : "./assets/cars-img/zeekr-6.jpg",
+          "card-title": "Zeekr 001",
+          "card-price": "38 850$",
+          "distance": "Запас ходу: 700км",
+          "battery": "Батарея: 100 КВт",
+          "year": "Рік випуску: 2023",
           "category": "order"
         }
 ]
